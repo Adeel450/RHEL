@@ -1,0 +1,27 @@
+Creating Symbolic Links:
+
+ln -s <filename> <newfile>: Create links between files.
+Example: ln -s ramadan25 roza25, ln -s /opt/securityonion /home/secondonion.
+Disk Usage:
+
+df -h: Display disk space usage in a human-readable format.
+Listing Files and Inodes:
+
+ls -i <directory>: List files with inode numbers.
+ls -il <directory>: List files with detailed information.
+Creating Empty Files:
+
+touch <filename>: Create empty files.
+Example: touch .rat, touch .filename.
+User Management:
+
+useradd <username>: Add new users.
+Example: useradd fighter5, ln -s /usr/sbin/useradd /usr/sbin/userbnao.
+Copying Files and Directories:
+
+cp <source> <destination>: Copy files and directories.
+Example: cp /var/test /usr/ (file), cp -r /var/oracle /usr/ (directory).
+Moving/Renaming Files and Directories:
+
+mv <filename> <newfilename>: Move or rename files and directories.
+Example: mv /var/dynamodb/ /mnt/.
