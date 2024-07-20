@@ -1,0 +1,26 @@
+cat /etc/redhat-release
+arch
+
+chown newuser username
+groupadd groupname
+chgrp newgroup filename
+chmod u+rwx filename
+chmod u-rwx filename
+chmod g+rwx filename
+chmod o+rwx filename
+chmod ugo+rwx filename
+chmod ugo-rwx filename
+
+cat /etc/passwd > container.txt
+
+# Vim commands
+:set nonu
+:vsplit
+:/wordname
+:X
+Ctrl + V
+Ctrl + K
+Alt + Shift + A
+
+ls -ld test5/
+chattr +i filename
