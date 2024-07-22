@@ -1,0 +1,23 @@
+1: Add Hard Disk to VM:
+
+Added an 800MB hard disk to the virtual machine.
+2: Discover Hard Disk Inside VM:
+
+Detected the new hard disk within the VM environment.
+3: Create and Manage Partition:
+
+Accessed the new hard disk using fdisk /dev/sdb.
+4: Created a 700MB partition:
+Pressed n for a new partition.
+Selected p for primary.
+Specified the size as +700M.
+Saved the partition table with w.
+5: Update Kernel Partition Table:
+
+Updated the kernel partition table using partx -a /dev/sdb.
+6: Format and Mount Partition:
+
+Formatted the partition with mkfs.ext4 /dev/sdb1.
+Created a directory mkdir /tomcat.
+Mounted the partition to the directory using mount /dev/sdb1 /tomcat/.
+Verified the mount with df -h.
